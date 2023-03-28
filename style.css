@@ -904,26 +904,40 @@ i:hover {
     text-shadow: none;
   }
 
+  /* seção de promoções */
+
+
+  .shooping-container-h2 {
+    margin: auto;
+  }
+
+  .shooping-container {
+
+    justify-content: center;
+    align-items: center;
+  }
+
   /* cart  */
+
+  #header {
+    padding: 1rem;
+  }
 
   .cart-container {
 
     position: relative;
-    top: -25vw;
     flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
-
 
   }
 
   .dvi-talble {
 
+    position: absolute;
     width: 100%;
     max-width: 520px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    top: 5%;
+    right: 0%;
+    left: 5%;
 
   }
 
@@ -942,31 +956,6 @@ i:hover {
     font-size: 15px;
   }
 
-
-  .td-quantity {
-
-    width: 190px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-
-  .product-qtd-input {
-
-    position: absolute;
-    left: 30px;
-    right: -10%;
-    bottom: -60px;
-    margin-left: -2vh;
-
-  }
-
-  .remove-product-button {
-
-    position: absolute;
-    top: 20px;
-  }
 
   .final-pay-container {
 
@@ -991,7 +980,8 @@ i:hover {
 
     width: 400px;
     top: 90%;
-    right: 13%;
+    right: 0%;
+    left: 16%;
 
   }
 
@@ -1032,26 +1022,43 @@ i:hover {
     margin-left: 0%;
   }
 
+  /* seção de promoções */
+
+  .shooping-container-h2 {
+    margin: auto;
+  }
+
+  .shooping-container {
+
+    justify-content: center;
+    align-items: center;
+  }
+
   /* cart  */
+
+  .cart-container, #header {
+    padding: 1.2vh;
+  }
 
   .cart-container {
 
     position: relative;
-    top: -25vw;
     flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
-
 
   }
 
   .dvi-talble {
 
+    position: absolute;
     width: 100%;
-    max-width: 520px;
+    max-width: 490px;
+    top: 5%;
+    right: 0%;
+    left: 5%;
     display: flex;
     justify-content: center;
-    margin: auto;
+    align-items: center;
+
 
   }
 
@@ -1070,38 +1077,22 @@ i:hover {
     font-size: 15px;
   }
 
-
   .td-quantity {
 
-    width: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-  }
-
-  .product-qtd-input {
-
-    position: absolute;
-    left: 30px;
-    right: -10%;
-    bottom: -60px;
-    margin-left: -2vh;
+    padding: 1.3rem 0;
 
   }
 
-  .remove-product-button {
-
-    position: absolute;
-    top: 20px;
-  }
 
   .final-pay-container {
 
     width: 500px;
     height: 178px;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 13%;
     margin-top: 10%;
 
   }
@@ -1119,7 +1110,8 @@ i:hover {
 
     width: 400px;
     top: 90%;
-    right: 13%;
+    right: 0%;
+    left: 13%;
 
   }
 
@@ -1245,31 +1237,75 @@ i:hover {
     width: 10px;
   }
 
+  /* seção de promoções */
+
+  .main-h1 {
+    font-size: 18px;
+  }
+
+  .shooping-container-h2 {
+    margin: auto;
+  }
+
+  .shooping-container {
+
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .title-cart {
+    font-size: 18px;
+  }
+
+  .infat {
+
+    width: 120px;
+    height: 120px;
+
+  }
+
+  .price-then {
+
+    width: 180px;
+    text-align: left;
+    right: 3%;
+
+  }
+
+  .price {
+
+    right: 20%;
+  }
+
   /* cart  */
 
   .cart-container {
 
     position: relative;
-    top: -35vw;
     flex-direction: column;
-    padding: 1rem;
-    justify-content: center;
+    font-size: 15px;
 
   }
 
   .dvi-talble {
 
+    position: absolute;
     width: 100%;
-    max-width: 370px;
+    max-width: 390px;
+    top: 5%;
+    right: 0%;
+    left: 3%;
     display: flex;
     justify-content: center;
-    margin: auto;
+    align-items: center;
 
   }
 
 
   .thead-table {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .td-produto .infat {
@@ -1279,44 +1315,25 @@ i:hover {
 
 
   .td-price, .td-total {
-    font-size: 12px;
+    font-size: 13px;
   }
-
 
   .td-quantity {
 
-    width: 15vh;
-    padding: 2vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    padding: 0.90rem 0;
 
   }
 
-  .product-qtd-input {
-
-    width: 30px;
-    height: 20px;
-    position: absolute;
-    top: 4vh;
-    left: 2vh;
-
-  }
-
-  .remove-product-button {
-    position: absolute;
-    right: -10%;
-    top: 1.7vh;
-  }
 
   .final-pay-container {
 
-
-    width: 300px;
+    width: 360px;
     height: 178px;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 10%;
 
   }
@@ -1332,17 +1349,19 @@ i:hover {
 
   .Pay-container {
 
-    width: 300px;
+    width: 340px;
     top: 90%;
-    right: 13%;
+    right: 0%;
+    left: 8%;
 
   }
 
   /* contact  */
 
-  .contact-h1{
+  .contact-h1 {
     margin-top: 5vh;
   }
+
   .main-contact-container {
     /* min-height: 65vh; */
   }
@@ -1386,284 +1405,47 @@ i:hover {
     width: 260px;
   }
 
-  /* cart  */
-
-  .cart-container {
-
-    position: relative;
-    top: -35vw;
-    flex-direction: column;
-    padding: 1vh;
-    justify-content: center;
-
-  }
-
-  .dvi-talble {
-
-    width: 100%;
-    max-width: 370px;
-    display: flex;
-    justify-content: center;
-
-  }
-
-
-  .thead-table {
-    font-size: 12px;
-  }
-
-  .td-produto .infat {
-    width: 80px;
-    height: 80px;
-  }
-
-
-  .td-price, .td-total {
-    font-size: 12px;
-  }
-
-
-  .td-quantity {
-
-    width: 15vh;
-    padding: 2vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-  }
-
-  .product-qtd-input {
-
-    width: 30px;
-    height: 20px;
-    position: absolute;
-    top: 4vh;
-    left: 2vh;
-
-  }
-
-  .remove-product-button {
-    position: absolute;
-    right: -10%;
-    top: 1.7vh;
-  }
-
-  .final-pay-container {
-
-    width: 100%;
-    max-width: 300px;
-    height: 178px;
-    justify-content: center;
-    margin-left: 10%;
-  }
-
-  .resum-of-pay {
-    font-size: 15px;
-  }
-
-  .total {
-    font-size: 15px;
-  }
-
-
-  .Pay-container {
-
-    top: 90%;
-    margin: auto;
-  }
-}
-
-@media (max-width:375px) {
-
-  #header {
-    padding: 1em;
-  }
-
-  .logo-img {
-
-    width: 50px;
-    height: 50px;
-
-  }
-
-
-  .title {
-    font-size: 25px;
-    text-shadow: none;
-  }
-
-  .banner-fluflu {
-    min-height: 300px;
-  }
-
-
-
-  .main-container {
-
-    width: 310px;
-    padding: 1rem;
-    overflow-x: hidden;
-
-  }
-
-  .navgation {
-
-    display: flex;
-    overflow-x: auto;
-  }
-
+  /* seção de promoções */
 
   .main-h1 {
-
-    font-size: 20px;
-    font-weight: normal;
-    text-shadow: none;
-
+    font-size: 18px;
   }
-
-  .ofertas {
-
-    width: auto;
-    padding: 1em;
-
-  }
-
-  .sobre-container {
-
-    width: 310px;
-    display: block;
-    padding: 1rem;
-
-  }
-
-  .image-rosto {
-
-    width: 130px;
-    height: auto;
-    margin: auto;
-    margin-top: 1rem;
-
-  }
-
-  .main-h2 {
-
-    top: 12%;
-    font-size: 15px;
-
-  }
-
-  .p-sobre {
-
-    width: 250px;
-    margin: auto;
-    font-size: 12px;
-
-  }
-
-  .h2-subtitle {
-
-    font-size: 25px;
-    text-shadow: none;
-
-  }
-
-  .footer-container {
-    height: 85px;
-  }
-
-  .social-media {
-    margin-left: 0%;
-    margin-right: 33%;
-  }
-
-  i {
-    width: 10px;
-  }
-
-  /* promocoes  */
 
   .shooping-container-h2 {
-    text-align: center;
-    margin: 1vw;
+    margin: auto;
   }
 
   .shooping-container {
 
-    display: flex;
+    width: 360px;
     justify-content: center;
+    align-items: center;
 
-  }
-
-  .roupas-infantil {
-    margin: 1vh;
-    width: 287px;
   }
 
   .title-cart {
-
-    font-size: 15px;
-    padding: 10px;
-
+    font-size: 18px;
   }
 
   .infat {
 
-    width: 116px;
-    height: 116px;
-    border-radius: 5px;
-
-  }
-
-  .roupas-infatil-0 {
-
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0 0;
+    width: 120px;
+    height: 120px;
 
   }
 
   .price-then {
 
-    font-family: 'Space Grotesk', sans-serif;
-    color: var(--grey);
-    font-size: 12px;
-    width: 120px;
-    position: absolute;
-    bottom: 14vh;
-    left: 20vh;
-
-  }
-
-  .price-then+.price-then {
-
-    bottom: 10vh;
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: line-through;
+    width: 150px;
     line-height: 13px;
+    left: 45%;
+
 
   }
 
   .price {
 
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: bold;
-    color: var(--ligthGreen);
-    font-size: 15px;
-    width: 180px;
-    position: absolute;
-    bottom: 7vh;
-    left: 20vh;
-
-  }
-
-  .car {
-
-    font-size: 12px;
-    margin: 5px;
+    right: 16%;
   }
 
   /* cart  */
@@ -1671,72 +1453,59 @@ i:hover {
   .cart-container {
 
     position: relative;
-    top: -35vw;
     flex-direction: column;
-    justify-content: center;
-    margin: auto;
+    font-size: 15px;
 
   }
 
   .dvi-talble {
 
+    position: absolute;
     width: 100%;
-    max-width: 350px;
+    max-width: 360px;
+    top: 5%;
+    right: 0%;
+    left: 4%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 1em -1em;
 
   }
 
 
   .thead-table {
     font-size: 12px;
-    margin: 1vh;
   }
 
   .td-produto .infat {
-    width: 75px;
-    height: 75px;
+    width: 76px;
+    height: 76px;
   }
 
 
   .td-price, .td-total {
-    font-size: 12px;
+    font-size: 13px;
   }
-
 
   .td-quantity {
 
-    width: 14vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    margin: 1em -0.77em;
 
   }
 
-  .product-qtd-input {
-
-    width: 30px;
-    height: 20px;
-    position: absolute;
-    top: 4vh;
-    left: 1vh;
-
-  }
-
-  .remove-product-button {
-    position: absolute;
-    right: -8%;
-    top: 1.7vh;
-  }
 
   .final-pay-container {
 
-    width: 100%;
-    max-width: 300px;
+    width: 330px;
     height: 178px;
     justify-content: center;
-    margin-left: 7%;
+    margin-left: 6%;
+    margin-top: 10%;
+
   }
 
   .resum-of-pay {
@@ -1750,11 +1519,241 @@ i:hover {
 
   .Pay-container {
 
+    width: 290px;
     top: 90%;
-    right: 10%;
-    margin: auto;
+    right: 0%;
+    left: 12%;
+
+  }
+
+  @media (max-width:375px) {
+
+    #header {
+      padding: 1em;
+    }
+
+    .logo-img {
+
+      width: 50px;
+      height: 50px;
+
+    }
+
+
+    .title {
+      font-size: 25px;
+      text-shadow: none;
+    }
+
+    .banner-fluflu {
+      min-height: 300px;
+    }
+
+
+
+    .main-container {
+
+      width: 310px;
+      padding: 1rem;
+      overflow-x: hidden;
+
+    }
+
+    .navgation {
+
+      display: flex;
+      overflow-x: auto;
+    }
+
+
+    .main-h1 {
+
+      font-size: 20px;
+      font-weight: normal;
+      text-shadow: none;
+
+    }
+
+    .ofertas {
+
+      width: auto;
+      padding: 1em;
+
+    }
+
+    .sobre-container {
+
+      width: 310px;
+      display: block;
+      padding: 1rem;
+
+    }
+
+    .image-rosto {
+
+      width: 130px;
+      height: auto;
+      margin: auto;
+      margin-top: 1rem;
+
+    }
+
+    .main-h2 {
+
+      top: 12%;
+      font-size: 15px;
+
+    }
+
+    .p-sobre {
+
+      width: 250px;
+      margin: auto;
+      font-size: 12px;
+
+    }
+
+    .h2-subtitle {
+
+      font-size: 25px;
+      text-shadow: none;
+
+    }
+
+    .footer-container {
+      height: 85px;
+    }
+
+    .social-media {
+      margin-left: 0%;
+      margin-right: 33%;
+    }
+
+    i {
+      width: 10px;
+    }
+
+    /* seção de promoções */
+
+    .main-h1 {
+      font-size: 18px;
+    }
+
+    .shooping-container-h2 {
+      margin: auto;
+    }
+
+    .shooping-container {
+
+      width: 340px;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .title-cart {
+      font-size: 18px;
+    }
+
+    .infat {
+
+      width: 115px;
+      height: 115px;
+
+    }
+
+    .price-then {
+
+      width: 160px;
+      line-height: 13px;
+      left: 45%;
+      font-size: 15px;
+
+    }
+
+    .price {
+
+      right: 14%;
+    }
+
+
+    /* cart  */
+
+    .cart-container {
+
+      position: relative;
+      flex-direction: column;
+      font-size: 12px;
+
+    }
+
+    .dvi-talble {
+
+      position: absolute;
+      width: 100%;
+      max-width: 340px;
+      top: 5%;
+      left: 2%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+
+    }
+
+
+    .thead-table {
+      font-size: 12px;
+    }
+
+    .td-produto .infat {
+      width: 75px;
+      height: 75px;
+      margin: 0 -1em 0 1rem;
+
+    }
+
+
+    .td-price, .td-total {
+      font-size: 12px;
+    }
+
+    .td-quantity {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+
+
+    .final-pay-container {
+
+      width: 330px;
+      height: 178px;
+      margin-left: 5%;
+      margin-top: 10%;
+
+    }
+
+    .resum-of-pay {
+      font-size: 15px;
+    }
+
+    .total {
+      font-size: 15px;
+    }
+
+
+    .Pay-container {
+
+      width: 290px;
+      top: 90%;
+      right: 0%;
+      left: 10%;
+
+    }
+
   }
 
 }
-
-/* tablet  */
