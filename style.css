@@ -2,6 +2,7 @@
 
 :root {
 
+  --black: #000;
   --blue: #00BFFF;
   --violet: #667eea;
   --purple: #764ba2;
@@ -218,25 +219,25 @@ a:hover {
 }
 
 .ofer {
-  background: url(Img/Dress.jpg) no-repeat;
+  background: url(/Img/Dress.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 .moda-masculina {
-  background: url(Img/PantsM.jpg) no-repeat;
+  background: url(/Img/PantsM.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 .moda-feminina {
-  background: url(Img/ShortDress.jpg) no-repeat;
+  background: url(/Img/ShortDress.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 .moda-infantil {
-  background: url(Img/modaInfatil.jfif) no-repeat;
+  background: url(/Img/modaInfatil.jfif) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
@@ -746,95 +747,396 @@ i:hover {
 
 
 /* mobile  */
+@media(max-width: 1280px) {
 
 
-@media (max-width: 600px) {
+  .main-h1 {
 
-  .logo-img {
+    font-size: 22px;
+  }
 
-    width: 60px;
-    height: 60px;
-    padding: 0;
+  .social-media {
 
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+
+  }
+
+}
+
+@media(max-width: 1080px) {
+
+  .title {
+    text-shadow: none;
+    font-size: 35px;
+  }
+
+  .banner-fluflu {
+    min-height: 810px;
+  }
+
+
+  .social-media {
+
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .h2-subtitle {
+    text-shadow: none;
+    font-size: 35px;
+  }
+
+  /* promoções */
+
+  .main-h1 {
+
+    font-size: 25px;
+    margin-top: 4%;
+    margin-bottom: -1%;
+
+  }
+
+  .shooping-container-h2 {
+
+    text-align: center;
+    margin-left: 0%;
+    margin: 20px;
+    font-size: 30px;
+
+  }
+
+  .shooping-container {
+
+    max-width: 980px;
+    justify-content: center;
+
+  }
+
+  .roupas-infantil {
+
+    width: 400px;
+    margin: 20px;
+
+  }
+
+  .title-cart {
+    margin-top: 10px;
+  }
+
+  .infat {
+
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+
+  }
+
+  .price-then {
+
+    top: -19vh;
+    right: 16px;
+    padding: 1em;
+
+  }
+
+  .price-then+.price-then {
+    top: -60px;
+  }
+
+  .price {
+
+    top: -30px;
+    left: 166px;
+    margin-top: 5px;
+
+  }
+
+  .car {
+    margin-top: 0%;
+  }
+}
+
+@media(max-width: 926px) {
+
+  .title {
+
+    font-size: 35px;
+    text-shadow: none;
+
+  }
+
+  .main-h1 {
+
+    font-size: 20px;
+    text-shadow: none;
+  }
+
+  .social-media {
+
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .h2-subtitle {
+
+    text-shadow: none;
+    font-size: 35px;
+  }
+
+  /* promoções  */
+
+  .roupas-infantil {
+    padding: 1rem;
+  }
+
+  .price-then {
+
+    top: -37vh;
+  }
+
+  .price-then+.price-then {
+    left: 35vh;
+  }
+
+}
+
+@media(max-width: 915px) {
+
+  .title {
+
+    font-size: 35px;
+    text-shadow: none;
+
+  }
+
+  .banner-fluflu {
+    min-height: 500px;
+  }
+
+  .main-h1 {
+
+    font-size: 20px;
+    text-shadow: none;
+  }
+
+  .social-media {
+
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .h2-subtitle {
+
+    text-shadow: none;
+    font-size: 35px;
+  }
+
+  /* promoções */
+
+  .main-h1 {
+
+    font-size: 25px;
+    margin-top: 4%;
+    margin-bottom: -1%;
+
+  }
+
+  .shooping-container-h2 {
+
+    text-align: center;
+    margin-left: 0%;
+    margin: 20px;
+
+  }
+
+  .shooping-container {
+
+    max-width: 780px;
+    justify-content: center;
+    margin: auto;
+
+  }
+
+  .roupas-infantil {
+
+    width: 333px;
+    padding: 10px;
+
+  }
+
+  .title-cart {
+    margin-top: 10px;
+  }
+
+  .infat {
+
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+
+  }
+
+  .price-then {
+
+    width: 210px;
+    top: -35vh;
+    right: -16px;
+    padding: 1em;
+
+  }
+
+  .price-then+.price-then {
+
+    top: -60px;
+    left: 38%;
+
+  }
+
+  .price {
+
+    top: -30px;
+    left: 135px;
+    line-height: 27px;
+  }
+
+  .car {
+    margin-top: 0%;
+  }
+}
+
+
+
+@media(max-width: 883px) {
+
+  #heade {
+    border-bottom-width: -2px;
+  }
+
+  #logo {
+    margin-top: 0%;
   }
 
   #menu {
-
-    display: block;
-    position: absolute;
-    width: 100%;
-    top: 70px;
-    right: 0px;
-    background: var(--lightGray);
-    transition: 0.6s;
-    z-index: 1000;
-    height: 0px;
-    visibility: hidden;
-    overflow-y: hidden;
-
+    margin-left: 0%;
+    gap: none;
   }
-
-  #nav.active #menu {
-
-    height: calc(100vh - 70px);
-    visibility: visible;
-    overflow-y: auto;
-
-  }
-
-  #menu a {
-
-    padding: 1rem 0;
-    margin: 0 1rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-
-  }
-
-  #btn-mobile {
-
-    display: flex;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border: none;
-    background: none;
-    cursor: pointer;
-    gap: 0.5rem;
-
-  }
-
-  #hamburger {
-    border-top: 2px solid;
-    width: 20px;
-  }
-
-  #hamburger::after,
-  #hamburger::before {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 2px;
-    background: currentColor;
-    margin-top: 5px;
-    transition: 0.3s;
-    position: relative;
-  }
-
-  #nav.active #hamburger {
-    border-top-color: transparent;
-  }
-
-  #nav.active #hamburger::before {
-    transform: rotate(135deg);
-  }
-
-  #nav.active #hamburger::after {
-    transform: rotate(-135deg);
-    top: -7px;
-  }
-
 
   .title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .nav-bar {
+
+    font-size: 14px;
+    margin-left: -10px;
+    margin-right: 0%;
+
+  }
+
+  /* promoções */
+
+  .main-h1 {
+
+    font-size: 25px;
+    margin-top: 4%;
+    margin-bottom: -1%;
+
+  }
+
+  .shooping-container-h2 {
+
+    text-align: center;
+    margin-left: 0%;
+    margin: 20px;
     font-size: 30px;
+
+  }
+
+  .shooping-container {
+
+    max-width: 780px;
+    margin: auto;
+
+  }
+
+  .roupas-infantil {
+
+    width: 333px;
+    margin: 10px;
+
+  }
+
+  .title-cart {
+    margin-top: 10px;
+  }
+
+  .infat {
+
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+
+  }
+
+  .price-then {
+
+    top: -37vh;
+    right: -10px;
+    padding: 1em;
+
+  }
+
+  .price-then+.price-then {
+    top: -60px;
+  }
+
+  .price {
+
+    top: -8vh;
+    left: 135px;
+    line-height: 27px;
+  }
+
+  .car {
+    margin-top: 0%;
+  }
+
+}
+
+@media(max-width:870px) {
+
+  #header {
+    height: 80px;
+  }
+
+  .logo-img {
+
+    width: 65px;
+    height: 65px;
+
+  }
+
+  .title {
+
+    font-size: 30px;
+    text-shadow: none;
+
   }
 
   .banner-fluflu {
@@ -844,7 +1146,7 @@ i:hover {
 
 
   .main-container {
-    width: 500px;
+    width: 750px;
     overflow-x: hidden;
   }
 
@@ -857,7 +1159,7 @@ i:hover {
 
   .main-h1 {
 
-    font-size: 17px;
+    font-size: 22px;
     font-weight: normal;
 
   }
@@ -871,7 +1173,7 @@ i:hover {
 
   .sobre-container {
 
-    width: 500px;
+    width: 750px;
     display: block;
 
   }
@@ -887,14 +1189,16 @@ i:hover {
 
   .main-h2 {
 
+    font-size: 30px;
+    bottom: -0.2rem;
     top: 15%;
-    margin-right: 1rem;
+    left: 4em;
 
   }
 
   .p-sobre {
 
-    width: 380px;
+    width: 700px;
     margin: auto;
 
   }
@@ -904,17 +1208,74 @@ i:hover {
     text-shadow: none;
   }
 
-  /* seção de promoções */
+  /* promoções */
 
+  .main-h1 {
+
+    font-size: 25px;
+    margin-top: 4%;
+    margin-bottom: -1%;
+
+  }
 
   .shooping-container-h2 {
-    margin: auto;
+
+    text-align: center;
+    margin-left: 0%;
+    margin: 20px;
+    font-size: 30px;
+
   }
 
   .shooping-container {
 
-    justify-content: center;
-    align-items: center;
+    max-width: 780px;
+    margin: auto;
+
+  }
+
+  .roupas-infantil {
+
+    width: 350px;
+    margin: 15px;
+
+  }
+
+  .title-cart {
+    margin-top: 10px;
+  }
+
+  .infat {
+
+    width: 110px;
+    height: 110px;
+
+  }
+
+  .price-then {
+
+    top: -39vh;
+    right: 2vh;
+
+  }
+
+  .price-then+.price-then {
+
+    top: -17vh;
+    left: 30vh;
+
+  }
+
+  .price {
+
+    top: -10vh;
+    left: 34vh;
+    font-size: 18px;
+
+  }
+
+  .car {
+    margin-top: 0%;
   }
 
   /* cart  */
@@ -1005,6 +1366,807 @@ i:hover {
     margin-top: 5vw;
 
   }
+
+  .social-media {
+
+    margin-right: 0;
+    float: none;
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
+@media(max-width:854px){
+
+  .price-then + .price-then{
+    top: -17vh;
+  }
+  .price{
+
+    top:-10vh;
+    right: -20vh;
+  }
+}
+
+@media(max-width:844px) {
+
+  /* promoções */
+
+  .main-h1 {
+
+    font-size: 25px;
+    margin-top: 4%;
+    margin-bottom: -1%;
+
+  }
+
+  .shooping-container-h2 {
+
+    text-align: center;
+    margin-left: 0%;
+    margin: 20px;
+    font-size: 30px;
+
+  }
+
+  .shooping-container {
+
+    max-width: 780px;
+    margin: auto;
+
+  }
+
+  .roupas-infantil {
+
+    width: 350px;
+    margin: 15px;
+
+  }
+
+  .title-cart {
+    margin-top: 10px;
+  }
+
+  .infat {
+
+    width: 110px;
+    height: 110px;
+
+  }
+
+  .price-then {
+
+    top: -38vh;
+    right: -8px;
+
+  }
+
+  .price-then+.price-then {
+
+    top: -61px;
+    right: 0px;
+
+  }
+
+  .price {
+
+    top: -37px;
+    font-size: 18px;
+
+  }
+
+  .car {
+    margin-top: 0%;
+  }
+}
+
+
+@media(max-width:812px) {
+
+  /* seção promoções  */
+
+  .roupas-infantil {
+    padding: 1rem;
+  }
+
+  .price-then {
+
+    top: -40vh;
+    right: -5%;
+
+  }
+
+  .price-then+.price-then {
+
+    top: -17vh;
+    right: -7vh;
+
+  }
+
+  .price {
+
+    top: -35px;
+    left: 34vh;
+  }
+}
+
+@media(max-width:810px){
+
+  .price-then{
+    top:-14vh;
+  }
+  .price-then + .price-then{
+
+    top:-6vh;
+    left: 11vh;
+
+  }
+
+  .price{
+
+    top:-3vh;
+    left: 42%;
+    right: 0vh;
+
+  }
+}
+
+@media(max-width:800px){
+
+  .price-then{
+
+    top:-42vh;
+    left: 31vh;
+
+  }
+  .price-then + .price-then{
+
+    top:-18vh;
+    left: 32vh;
+
+  }
+
+  .price{
+
+    top:-11vh;
+    left: 36.3vh;
+
+  }
+}
+
+@media (max-width: 762px) {
+
+  .logo-img {
+
+    width: 60px;
+    height: 60px;
+    padding: 0;
+
+  }
+
+  #menu {
+
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: var(--lightGray);
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+
+  }
+
+  #nav.active #menu {
+
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+
+  }
+
+  #menu a {
+
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+
+  }
+
+  #btn-mobile {
+
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+
+  }
+
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+
+  .title {
+
+    font-size: 30px;
+    margin-left: 0%;
+    text-shadow: none;
+
+  }
+
+  .banner-fluflu {
+    min-height: 500px;
+  }
+
+
+
+  .main-container {
+    width: 660px;
+    overflow-x: hidden;
+  }
+
+  .navgation {
+
+    display: flex;
+    overflow-x: auto;
+  }
+
+
+  .main-h1 {
+
+    font-size: 22px;
+    font-weight: normal;
+
+  }
+
+  .ofertas {
+
+    width: 1200px;
+    padding: 1em;
+
+  }
+
+  .sobre-container {
+
+    width: 660px;
+    display: block;
+
+  }
+
+  .image-rosto {
+
+    width: 140px;
+    height: auto;
+    margin: auto;
+    margin-top: 1rem;
+
+  }
+
+  .main-h2 {
+
+    font-size: 30px;
+  }
+
+  .p-sobre {
+
+    width: 580px;
+    margin: auto;
+
+  }
+
+  .h2-subtitle {
+    font-size: 30px;
+    text-shadow: none;
+  }
+
+  /* promoções */
+
+  .main-h1 {
+
+    font-size: 25px;
+    margin-top: 5%;
+    margin-bottom: -2%;
+
+  }
+
+  .shooping-container-h2 {
+
+    text-align: center;
+    margin-left: 0%;
+    margin: 20px;
+    font-size: 30px;
+
+  }
+
+  .shooping-container {
+
+    max-width: 780px;
+    justify-content: center;
+    margin: auto;
+
+  }
+
+  .roupas-infantil {
+
+    width: 333px;
+    margin: 10px;
+
+  }
+
+  .title-cart {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .infat {
+
+    width: 110px;
+    height: 110px;
+    margin: 10px;
+
+  }
+
+  .price-then {
+
+    top: -41vh;
+    right: -7vh;
+    padding: 1em;
+
+  }
+
+  .price-then+.price-then {
+
+    left: 33.4vh;
+    top: -18vh;
+  }
+
+  .price {
+
+    top: -11vh;
+    left: 38vh;
+    right: 0%;
+    line-height: 29px;
+
+  }
+
+  .car {
+    margin-top: 0%;
+  }
+
+  /* cart  */
+
+  #header {
+    padding: 1rem;
+  }
+
+  .cart-container {
+
+    position: relative;
+    flex-direction: column;
+
+  }
+
+  .dvi-talble {
+
+    position: absolute;
+    width: 100%;
+    max-width: 520px;
+    top: 5%;
+    right: 0%;
+    left: 5%;
+
+  }
+
+
+  .thead-table {
+    font-size: 15px;
+  }
+
+  .td-produto .infat {
+    width: 90px;
+    height: 90px;
+  }
+
+
+  .td-price, .td-total {
+    font-size: 15px;
+  }
+
+
+  .final-pay-container {
+
+    width: 500px;
+    height: 178px;
+    justify-content: center;
+    margin-left: 16%;
+    margin-top: 10%;
+
+  }
+
+  .resum-of-pay {
+    font-size: 15px;
+  }
+
+  .total {
+    font-size: 15px;
+  }
+
+
+  .Pay-container {
+
+    width: 400px;
+    top: 90%;
+    right: 0%;
+    left: 16%;
+
+  }
+
+  /* contact  */
+
+  .main-contact-container {
+    min-height: 60vh;
+  }
+
+  .nav-contact-container {
+
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+
+  }
+
+  .ul-contact-container i {
+
+    width: 300px;
+    margin-top: 5vw;
+
+  }
+
+  .social-media {
+
+    margin-right: 0;
+    float: none;
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
+@media(max-width:667px) {
+
+  .logo-img {
+
+    width: 60px;
+    height: 60px;
+    padding: 0;
+
+  }
+
+  #menu {
+
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: var(--lightGray);
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+
+  }
+
+  #nav.active #menu {
+
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+
+  }
+
+  #menu a {
+
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+
+  }
+
+  #btn-mobile {
+
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+
+  }
+
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+
+  .title {
+
+    font-size: 30px;
+    margin-left: 0%;
+    text-shadow: none;
+
+  }
+
+  .banner-fluflu {
+    min-height: 500px;
+  }
+
+
+
+  .main-container {
+    width: 560px;
+    overflow-x: hidden;
+  }
+
+  .navgation {
+
+    display: flex;
+    overflow-x: auto;
+  }
+
+
+  .main-h1 {
+
+    font-size: 20px;
+    font-weight: normal;
+
+  }
+
+  .ofertas {
+
+    width: 1200px;
+    padding: 1em;
+
+  }
+
+  .sobre-container {
+
+    width: 560px;
+    display: block;
+
+  }
+
+  .image-rosto {
+
+    width: 140px;
+    height: auto;
+    margin: auto;
+    margin-top: 1rem;
+
+  }
+
+  .main-h2 {
+
+    font-size: 30px;
+    left: 55px;
+  }
+
+  .p-sobre {
+
+    width: 480px;
+    margin: auto;
+
+  }
+
+  .h2-subtitle {
+    font-size: 30px;
+    text-shadow: none;
+  }
+
+  /* seção de promoções */
+
+  .main-h1 {
+    font-size: 25px;
+  }
+
+  .roupas-infantil {
+    width: 433px;
+  }
+
+  .infat {
+    width: 180px;
+    height: 180px;
+  }
+
+  .price-then {
+
+    font-size: 16px;
+    top: -55vh;
+    left: 50vh;
+
+  }
+
+  .price-then+.price-then {
+
+    margin-top: 15px;
+    font-size: 18px;
+    left: 50.2vh;
+    top: -24vh;
+
+  }
+
+  .price {
+
+    font-size: 18px;
+    left: 55vh;
+    top: -16vh;
+    margin-top: 18px;
+
+  }
+
+  .add-cart {
+    padding: 10px;
+  }
+
+  /* cart  */
+
+  #header {
+    padding: 1rem;
+  }
+
+  .cart-container {
+
+    position: relative;
+    flex-direction: column;
+
+  }
+
+  .dvi-talble {
+
+    position: absolute;
+    width: 100%;
+    max-width: 520px;
+    top: 5%;
+    right: 0%;
+    left: 5%;
+
+  }
+
+
+  .thead-table {
+    font-size: 15px;
+  }
+
+  .td-produto .infat {
+    width: 90px;
+    height: 90px;
+  }
+
+
+  .td-price, .td-total {
+    font-size: 15px;
+  }
+
+
+  .final-pay-container {
+
+    width: 500px;
+    height: 178px;
+    justify-content: center;
+    margin-left: 16%;
+    margin-top: 10%;
+
+  }
+
+  .resum-of-pay {
+    font-size: 15px;
+  }
+
+  .total {
+    font-size: 15px;
+  }
+
+
+  .Pay-container {
+
+    width: 400px;
+    top: 90%;
+    right: 0%;
+    left: 16%;
+
+  }
+
+  /* contact  */
+
+  .main-contact-container {
+    min-height: 60vh;
+  }
+
+  .nav-contact-container {
+
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+
+  }
+
+  .ul-contact-container i {
+
+    width: 300px;
+    margin-top: 5vw;
+
+  }
+
+  .social-media {
+
+    margin-right: 0;
+    float: none;
+    display: flex;
+    justify-content: center;
+
+  }
 }
 
 @media(max-width:540px) {
@@ -1024,15 +2186,7 @@ i:hover {
 
   /* seção de promoções */
 
-  .shooping-container-h2 {
-    margin: auto;
-  }
-
-  .shooping-container {
-
-    justify-content: center;
-    align-items: center;
-  }
+  .price {}
 
   /* cart  */
 
@@ -1138,26 +2292,17 @@ i:hover {
 
 }
 
-@media (max-width:414px) {
+@media(max-width:428px) {
 
-  #header {
-    padding: 1rem;
-  }
-
-  .logo-img {
-
-    width: 50px;
-    height: 50px;
-
-  }
 
   .title {
-    font-size: 20px;
-    text-shadow: 1px 1px 1px var(--white) solid;
+
+    font-size: 30px;
+    margin-left: 1em;
   }
 
   .banner-fluflu {
-    height: 350px;
+    min-height: 414px;
   }
 
 
@@ -1176,7 +2321,7 @@ i:hover {
 
   .main-h1 {
 
-    font-size: 14px;
+    font-size: none;
     font-weight: normal;
     text-shadow: none;
 
@@ -1209,10 +2354,10 @@ i:hover {
   .main-h2 {
 
     top: 15%;
-    margin-right: 0;
+    left: 22px;
     padding: auto;
     font-size: 20px;
-    text-shadow: 1px 1px 1px var(--white) solid;
+    text-shadow: 1px 1px 1px var(--black);
 
   }
 
@@ -1225,12 +2370,11 @@ i:hover {
   }
 
   .h2-subtitle {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .social-media {
-    margin-left: 0%;
-    margin-right: 33%;
+    margin: auto;
   }
 
   i {
@@ -1240,11 +2384,11 @@ i:hover {
   /* seção de promoções */
 
   .main-h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .shooping-container-h2 {
-    margin: auto;
+    margin: 20px;
   }
 
   .shooping-container {
@@ -1268,15 +2412,32 @@ i:hover {
 
   .price-then {
 
+    font-size: 15px;
     width: 180px;
-    text-align: left;
-    right: 3%;
+    line-height: 15px;
+    top: -17vh;
+    left: 14vh;
+
+  }
+
+  .price-then+.price-then {
+
+    font-size: 15px;
+    left: 14vh;
+    top: -8vh;
+    line-height: -15%;
 
   }
 
   .price {
 
-    right: 20%;
+    left: 15.7vh;
+    top: -5.5vh;
+
+  }
+
+  .h2-subtitle {
+    font-size: 30px;
   }
 
   /* cart  */
@@ -1378,8 +2539,265 @@ i:hover {
     width: 200px;
   }
 
+}
+
+@media (max-width:414px) {
+
+  #header {
+    padding: 1rem;
+  }
+
+  .logo-img {
+
+    width: 60px;
+    height: 60px;
+
+  }
+
+  .title {
+
+    font-size: 25px;
+    margin-left: 1em;
+  }
+
+  .banner-fluflu {
+    min-height: 500px;
+  }
+
+
+  .main-container {
+
+    width: 370px;
+    overflow-x: hidden;
+  }
+
+  .navgation {
+
+    display: flex;
+    overflow-x: auto;
+  }
+
+
+  .main-h1 {
+
+    font-size: none;
+    font-weight: normal;
+    text-shadow: none;
+
+  }
+
+  .ofertas {
+
+    width: 1200px;
+    padding: 1em;
+
+  }
+
+  .sobre-container {
+
+    width: 370px;
+    display: block;
+
+
+  }
+
+  .image-rosto {
+
+    width: 140px;
+    height: auto;
+    margin: auto;
+    margin-top: 1rem;
+
+  }
+
+  .main-h2 {
+
+    top: 15%;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px var(--black);
+
+  }
+
+  .p-sobre {
+
+    width: 300px;
+    margin: auto;
+    font-size: 12px;
+
+  }
+
+  .h2-subtitle {
+    font-size: 25px;
+  }
+
+  .social-media {
+    margin: auto;
+  }
+
+  i {
+    width: 10px;
+  }
+
+  /* seção de promoções */
+
+  .main-h1 {
+    margin: 10px;
+  }
+
+  .shooping-container-h2 {
+    font-size: 25px;
+  }
+
+  .shooping-container {
+
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .title-cart {
+    font-size: 18px;
+  }
+
+  .infat {
+
+    width: 120px;
+    height: 120px;
+
+  }
+
+  .price-then {
+
+    top: -16vh;
+    left: 132px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+
+  }
+
+  .price-then+.price-then {
+
+    top: -8vh;
+    left: 15vh;
+    font-size: 15px;
+
+  }
+
+  .price {
+
+    top: -6vh;
+    right: 0vh;
+    left: 16vh;
+    font-size: 15px;
+
+  }
+
+
+
+  /* cart  */
+
+  .cart-container {
+
+    position: relative;
+    flex-direction: column;
+    font-size: 15px;
+
+  }
+
+  .dvi-talble {
+
+    position: absolute;
+    width: 100%;
+    max-width: 390px;
+    top: 5%;
+    right: 0%;
+    left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+  .thead-table {
+    font-size: 14px;
+  }
+
+  .td-produto .infat {
+    width: 80px;
+    height: 80px;
+  }
+
+
+  .td-price, .td-total {
+    font-size: 13px;
+  }
+
+  .td-quantity {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.90rem 0;
+
+  }
+
+
+  .final-pay-container {
+
+    width: 360px;
+    height: 178px;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 10%;
+
+  }
+
+  .resum-of-pay {
+    font-size: 15px;
+  }
+
+  .total {
+    font-size: 15px;
+  }
+
+
+  .Pay-container {
+
+    width: 340px;
+    top: 90%;
+    right: 0%;
+    left: 8%;
+
+  }
+
+  /* contact  */
+
+  .contact-h1 {
+    margin-top: 5vh;
+  }
+
+  .main-contact-container {
+    /* min-height: 65vh; */
+  }
+
+  .nav-contact-container {
+
+    width: 300px;
+    height: 360px;
+    justify-content: center;
+
+  }
+
+  .ul-contact-container i {
+    width: 200px;
+  }
 
 }
+
+
 
 @media (max-width:393px) {
 
@@ -1399,6 +2817,7 @@ i:hover {
 
   .main-h2 {
     font-size: 17px;
+    text-shadow: 1px 1px 1px var(--black);
   }
 
   .p-sobre {
@@ -1408,11 +2827,7 @@ i:hover {
   /* seção de promoções */
 
   .main-h1 {
-    font-size: 18px;
-  }
-
-  .shooping-container-h2 {
-    margin: auto;
+    font-size: 23px;
   }
 
   .shooping-container {
@@ -1437,15 +2852,19 @@ i:hover {
   .price-then {
 
     width: 150px;
-    line-height: 13px;
+    line-height: 14px;
+    top: -18vh;
     left: 45%;
-
 
   }
 
-  .price {
+  .price-then+.price-then {
+    left: 16vh;
+  }
 
-    right: 16%;
+  .price {
+    left: 17vh;
+    bottom: -10px;
   }
 
   /* cart  */
@@ -1534,15 +2953,17 @@ i:hover {
 
     .logo-img {
 
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
 
     }
 
 
     .title {
+
       font-size: 25px;
       text-shadow: none;
+
     }
 
     .banner-fluflu {
@@ -1568,7 +2989,7 @@ i:hover {
 
     .main-h1 {
 
-      font-size: 20px;
+      font-size: 15px;
       font-weight: normal;
       text-shadow: none;
 
@@ -1602,6 +3023,8 @@ i:hover {
 
       top: 12%;
       font-size: 15px;
+      right: 15px;
+      text-shadow: 1px 1px 1px var(--black);
 
     }
 
@@ -1624,11 +3047,6 @@ i:hover {
       height: 85px;
     }
 
-    .social-media {
-      margin-left: 0%;
-      margin-right: 33%;
-    }
-
     i {
       width: 10px;
     }
@@ -1636,46 +3054,55 @@ i:hover {
     /* seção de promoções */
 
     .main-h1 {
-      font-size: 18px;
-    }
-
-    .shooping-container-h2 {
-      margin: auto;
+      font-size: 20px;
     }
 
     .shooping-container {
 
-      width: 340px;
+      width: 330px;
       justify-content: center;
       align-items: center;
 
     }
 
     .title-cart {
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .infat {
 
-      width: 115px;
-      height: 115px;
+      width: 110px;
+      height: 110px;
 
     }
 
     .price-then {
 
       width: 160px;
-      line-height: 13px;
-      left: 45%;
+      bottom: 0vh;
+      top: -18vh;
+      left: 126px;
+      font-size: 14px;
+      
+
+    }
+
+    .price-then+.price-then {
+
+      top: -8vh;
       font-size: 15px;
+      left: 120px;
 
     }
 
     .price {
 
-      right: 14%;
-    }
+      top: -6vh;
+      left: 47%;
+      right: 0%;
+      font-size: 15px;
 
+    }
 
     /* cart  */
 
@@ -1707,6 +3134,7 @@ i:hover {
     }
 
     .td-produto .infat {
+      
       width: 75px;
       height: 75px;
       margin: 0 -1em 0 1rem;
@@ -1723,7 +3151,7 @@ i:hover {
       display: flex;
       justify-content: center;
       align-items: center;
-    
+
     }
 
 
@@ -1752,6 +3180,32 @@ i:hover {
       right: 0%;
       left: 10%;
 
+    }
+
+  }
+  
+
+  @media(max-width:360px){
+
+    /* seção promoções  */
+
+    .price-then{
+
+      width: 160px;
+      top: -18vh;
+      right: 20px;
+
+    }
+
+    .price-then + .price-then{
+
+      left: 16vh;
+      top: -8vh;
+
+    }
+
+    .price{
+      top: -6vh;
     }
 
   }
