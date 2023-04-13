@@ -219,25 +219,25 @@ a:hover {
 }
 
 .ofer {
-  background: url(Img/Dress.jpg) no-repeat;
+  background: url(/Img/Dress.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 .moda-masculina {
-  background: url(Img/PantsM.jpg) no-repeat;
+  background: url(/Img/PantsM.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 .moda-feminina {
-  background: url(Img/ShortDress.jpg) no-repeat;
+  background: url(/Img/ShortDress.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 .moda-infantil {
-  background: url(Img/modaInfatil.jfif) no-repeat;
+  background: url(/Img/modaInfatil.jfif) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
@@ -408,6 +408,7 @@ i:hover {
 }
 
 .roupas-infatil-0 {
+
   padding: 1vh;
   display: flex;
   flex-direction: column;
@@ -420,11 +421,11 @@ i:hover {
   position: absolute;
   width: 216px;
   font-family: 'Space Grotesk', sans-serif;
-
   color: var(--grey);
   font-size: 15px;
-  bottom: 13vh;
-  right: 2%;
+  top: -9em;
+  left: 19.1vh;
+
 }
 
 .price-then+.price-then {
@@ -433,7 +434,8 @@ i:hover {
   font-size: 16px;
   font-weight: bold;
   text-decoration: line-through;
-  top: -4vh;
+  top: -5vh;
+  left: 19vh;
 
 }
 
@@ -444,8 +446,8 @@ i:hover {
   font-weight: bold;
   color: var(--ligthGreen);
   font-size: 18px;
-  top: -25%;
-  right: 11vh;
+  top: -3vh;
+  left: 19vh;
 
 }
 
@@ -482,180 +484,7 @@ i:hover {
 
 }
 
-.cart-container {
 
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-
-}
-
-.table-container {}
-
-.dvi-talble {
-
-  width: 600px;
-  background-color: transparent;
-  border: 1px solid var(--white);
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px var(--white);
-  padding: 1.7em;
-
-}
-
-
-.table {}
-
-.thead-table {
-
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 20px;
-  color: var(--violet);
-
-}
-
-
-.th-thead {
-
-  padding: 1vh;
-}
-
-.tbody-table {}
-
-.td-produto .roupas-infantil {
-
-  width: 260px;
-  padding: 1rem;
-
-}
-
-.td-produto .infat {
-
-  width: 130px;
-  height: 130px;
-}
-
-.td-produto .title-cart {
-  font-size: 15px;
-}
-
-.td-produto .price-then {
-
-  width: 110px;
-  font-size: 12px;
-
-}
-
-.td-price, .td-total {
-
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: var(--SpringGreen);
-  padding: 1em;
-  text-shadow: 2px 2px 2px var(--ligthGreen);
-
-}
-
-.td-quantity input {
-
-  width: 35px;
-  border: none;
-  border-radius: 5px;
-  padding: 5px;
-  transition: 0.5s;
-
-}
-
-
-.td-quantity .remove-product-button {
-
-  border: none;
-  border-radius: 10px;
-  padding: 1vh;
-  margin: 1em;
-  font-size: 12px;
-  font-weight: bold;
-  color: var(--white);
-  background-color: var(--violet);
-  box-shadow: 2px 2px 2px var(--lightGray);
-  cursor: pointer;
-
-}
-
-.td-quantity .remove-product-button:hover {
-  background-color: var(--ligthViolet);
-}
-
-.final-pay-container {
-
-
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 400px;
-  height: 200px;
-  border: 1px var(--white) solid;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px var(--lightGray);
-  margin: 1rem;
-  padding: 1rem;
-
-}
-
-.resum-of-pay {
-
-  font-family: 'Space Grotesk', sans-serif;
-  color: var(--violet);
-  margin-bottom: 10px;
-
-}
-
-.form-container {
-
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.sub-total {
-
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: bold;
-  color: var(--ligthViolet);
-
-}
-
-.total {
-
-
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  color: var(--ligthGreen);
-  text-shadow: 2px 2px 2px var(--SpringGreen);
-  margin-bottom: 10%;
-
-}
-
-.end-pay {
-
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  border: none;
-  border-radius: 5px;
-  padding: 1rem;
-  color: var(--white);
-  background-color: var(--ligthGreen);
-  cursor: pointer;
-  transition: 0.5s;
-
-}
-
-.end-pay:hover {
-  background-color: var(--SpringGreen);
-}
 
 /* formas de pagamento */
 
@@ -840,20 +669,23 @@ i:hover {
   .price-then {
 
     top: -19vh;
-    right: 16px;
+    left: 17vh;
     padding: 1em;
 
   }
 
   .price-then+.price-then {
-    top: -60px;
+
+    top: -68px;
+    left: 17vh;
+
   }
 
   .price {
 
-    top: -30px;
-    left: 166px;
-    margin-top: 5px;
+    top: -31px;
+    left: 19vh;
+    
 
   }
 
@@ -901,10 +733,15 @@ i:hover {
   .price-then {
 
     top: -37vh;
+    left:30vh;
   }
 
   .price-then+.price-then {
-    left: 35vh;
+    left: 30vh;
+  }
+
+  .price{
+    left: 33.6vh;
   }
 
 }
@@ -913,7 +750,7 @@ i:hover {
 
   .title {
 
-    font-size: 35px;
+    font-size: 30px;
     text-shadow: none;
 
   }
@@ -940,7 +777,7 @@ i:hover {
   .h2-subtitle {
 
     text-shadow: none;
-    font-size: 35px;
+    font-size: 30px;
   }
 
   /* promoções */
@@ -977,7 +814,10 @@ i:hover {
   }
 
   .title-cart {
+
     margin-top: 10px;
+    font-size: 15px;
+
   }
 
   .infat {
@@ -990,10 +830,11 @@ i:hover {
 
   .price-then {
 
-    width: 210px;
+    width: 200px;
     top: -35vh;
-    right: -16px;
+    left: 29vh;
     padding: 1em;
+    font-size: 13px;
 
   }
 
@@ -1096,8 +937,9 @@ i:hover {
 
   .price-then {
 
-    top: -37vh;
-    right: -10px;
+    width: 210px;
+    top: -35vh;
+    left: 28vh;
     padding: 1em;
 
   }
@@ -1379,12 +1221,19 @@ i:hover {
 
 @media(max-width:854px){
 
+  .price-then{
+
+    width: 200px;
+    top: -36vh;
+    left: 31vh;
+  }
+
   .price-then + .price-then{
     top: -17vh;
   }
   .price{
 
-    top:-10vh;
+    top:-9vh;
     right: -20vh;
   }
 }
@@ -1437,14 +1286,15 @@ i:hover {
 
   .price-then {
 
-    top: -38vh;
+    width: 200px;
+    top: -37vh;
     right: -8px;
 
   }
 
   .price-then+.price-then {
 
-    top: -61px;
+    top: -18vh;
     right: 0px;
 
   }
@@ -1472,14 +1322,14 @@ i:hover {
 
   .price-then {
 
-    top: -40vh;
+    top: -38vh;
     right: -5%;
 
   }
 
   .price-then+.price-then {
 
-    top: -17vh;
+    top: -18vh;
     right: -7vh;
 
   }
@@ -1494,8 +1344,12 @@ i:hover {
 @media(max-width:810px){
 
   .price-then{
-    top:-14vh;
+
+    width: 200px;
+    top:-13vh;
+    left: 11vh;
   }
+
   .price-then + .price-then{
 
     top:-6vh;
@@ -1505,7 +1359,7 @@ i:hover {
 
   .price{
 
-    top:-3vh;
+    top:-3.1vh;
     left: 42%;
     right: 0vh;
 
@@ -1513,6 +1367,8 @@ i:hover {
 }
 
 @media(max-width:800px){
+
+  /* seção promoções  */
 
   .price-then{
 
@@ -1529,13 +1385,13 @@ i:hover {
 
   .price{
 
-    top:-11vh;
+    top:-10vh;
     left: 36.3vh;
 
   }
 }
 
-@media (max-width: 762px) {
+@media (max-width: 760px) {
 
   .logo-img {
 
@@ -1728,8 +1584,10 @@ i:hover {
   }
 
   .title-cart {
+
     margin-top: 10px;
     font-size: 18px;
+
   }
 
   .infat {
@@ -1742,22 +1600,23 @@ i:hover {
 
   .price-then {
 
-    top: -41vh;
-    right: -7vh;
+    width: 200px;
+    top: -40vh;
+    left: 32vh;
     padding: 1em;
 
   }
 
   .price-then+.price-then {
 
-    left: 33.4vh;
+    left: 32vh;
     top: -18vh;
   }
 
   .price {
 
-    top: -11vh;
-    left: 38vh;
+    top: -10vh;
+    left: 36.2vh;
     right: 0%;
     line-height: 29px;
 
@@ -2650,7 +2509,7 @@ i:hover {
 
   .shooping-container {
 
-    width: 380px;
+    width: 370px;
     justify-content: center;
     align-items: center;
 
@@ -2680,7 +2539,7 @@ i:hover {
   .price-then+.price-then {
 
     top: -8vh;
-    left: 15vh;
+    left: 14.6vh;
     font-size: 15px;
 
   }
@@ -2688,8 +2547,7 @@ i:hover {
   .price {
 
     top: -6vh;
-    right: 0vh;
-    left: 16vh;
+    left: 15.6vh;
     font-size: 15px;
 
   }
@@ -2851,20 +2709,25 @@ i:hover {
 
   .price-then {
 
-    width: 150px;
+    width: 170px;
     line-height: 14px;
-    top: -18vh;
-    left: 45%;
+    top: -17vh;
+    left: 16vh;
 
   }
 
   .price-then+.price-then {
+
+    top: -9vh;
     left: 16vh;
+
   }
 
   .price {
-    left: 17vh;
-    bottom: -10px;
+
+    left: 17.2vh;
+    top: -7vh;
+
   }
 
   /* cart  */
@@ -3053,56 +2916,27 @@ i:hover {
 
     /* seção de promoções */
 
-    .main-h1 {
-      font-size: 20px;
-    }
+   /* .price-then{
 
-    .shooping-container {
+    top: -21vh;
+    left: 19vh;
 
-      width: 330px;
-      justify-content: center;
-      align-items: center;
+   }
 
-    }
+   .price-then + .price-then{
 
-    .title-cart {
-      font-size: 16px;
-    }
+    top: -11vh;
+    left: 19vh;
 
-    .infat {
+   }
 
-      width: 110px;
-      height: 110px;
+   .price{
+    
+    top: -8vh;
+    left: 20.3vh;
 
-    }
-
-    .price-then {
-
-      width: 160px;
-      bottom: 0vh;
-      top: -18vh;
-      left: 126px;
-      font-size: 14px;
-      
-
-    }
-
-    .price-then+.price-then {
-
-      top: -8vh;
-      font-size: 15px;
-      left: 120px;
-
-    }
-
-    .price {
-
-      top: -6vh;
-      left: 47%;
-      right: 0%;
-      font-size: 15px;
-
-    }
+   } */
+ 
 
     /* cart  */
 
@@ -3189,23 +3023,34 @@ i:hover {
 
     /* seção promoções  */
 
+    .main-h1{
+      font-size: 20px;
+    }
+
+    .shooping-container{
+      width: 340px;
+    }
+
     .price-then{
 
-      width: 160px;
+      width: 170px;
       top: -18vh;
-      right: 20px;
+      left: 16.7vh;
 
     }
 
     .price-then + .price-then{
 
-      left: 16vh;
-      top: -8vh;
+      left: 16.7vh;
+      top: -9vh;
 
     }
 
     .price{
-      top: -6vh;
+
+      top: -7vh;
+      left: 17.9vh;
+
     }
 
   }
