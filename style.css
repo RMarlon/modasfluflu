@@ -219,25 +219,25 @@ a:hover {
 }
 
 .ofer {
-  background: url(/Img/Dress.jpg) no-repeat;
+  background: url(Img/Dress.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 .moda-masculina {
-  background: url(/Img/PantsM.jpg) no-repeat;
+  background: url(Img/PantsM.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 .moda-feminina {
-  background: url(/Img/ShortDress.jpg) no-repeat;
+  background: url(Img/ShortDress.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
 .moda-infantil {
-  background: url(/Img/modaInfatil.jfif) no-repeat;
+  background: url(Img/modaInfatil.jfif) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
