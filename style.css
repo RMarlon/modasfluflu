@@ -362,17 +362,18 @@ i:hover {
   font-family: 'Space Grotesk', sans-serif;
   color: var(--white);
   text-shadow: 2px 2px 2px var(--ligthViolet);
-  margin-left: 15vw;
+  text-align: center;
+  margin: 10px;
 
 }
 
 .shooping-container {
 
   display: flex;
-  flex-wrap: wrap;
-  max-width: 1370px;
-  width: 100%;
   margin: auto;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  width: 100%;
 
 }
 
@@ -380,12 +381,12 @@ i:hover {
 
   display: flex;
   flex-direction: column;
-  width: 433px;
+  width: 400px;
   background-color: var(--white);
   border-radius: 10px;
   box-shadow: 5px 5px 5px var(--lightGray);
-  padding: 1vh;
-  margin: 1vh;
+  padding: 1rem;
+  margin: 1rem;
 
 }
 
@@ -400,8 +401,8 @@ i:hover {
 
 .infat {
 
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border-radius: 5px;
   margin-left: 20px;
 
@@ -419,12 +420,12 @@ i:hover {
 .price-then {
 
   position: absolute;
-  width: 216px;
+  width: 200px;
   font-family: 'Space Grotesk', sans-serif;
   color: var(--grey);
   font-size: 15px;
   top: -9em;
-  left: 19.1vh;
+  left: 25vh;
 
 }
 
@@ -434,8 +435,8 @@ i:hover {
   font-size: 16px;
   font-weight: bold;
   text-decoration: line-through;
-  top: -5vh;
-  left: 19vh;
+  top: -6vh;
+  left: 25vh;
 
 }
 
@@ -447,7 +448,7 @@ i:hover {
   color: var(--ligthGreen);
   font-size: 18px;
   top: -3vh;
-  left: 19vh;
+  left: 25vh;
 
 }
 
@@ -574,6 +575,9 @@ i:hover {
   color: var(--white);
 }
 
+.social-media{
+  margin-right: 5%;
+}
 
 /* mobile  */
 @media(max-width: 1280px) {
@@ -668,6 +672,8 @@ i:hover {
 
   .price-then {
 
+    width: 200px;
+    font-size: 14px;
     top: -19vh;
     left: 17vh;
     padding: 1em;
@@ -676,14 +682,14 @@ i:hover {
 
   .price-then+.price-then {
 
-    top: -68px;
+    top: -7.7vh;
     left: 17vh;
 
   }
 
   .price {
 
-    top: -31px;
+    top: -30px;
     left: 19vh;
     
 
@@ -737,6 +743,8 @@ i:hover {
   }
 
   .price-then+.price-then {
+
+    top: -4em;
     left: 30vh;
   }
 
@@ -945,7 +953,7 @@ i:hover {
   }
 
   .price-then+.price-then {
-    top: -60px;
+    top: -65px;
   }
 
   .price {
@@ -1372,8 +1380,8 @@ i:hover {
 
   .price-then{
 
-    top:-42vh;
-    left: 31vh;
+    top:-39vh;
+    left: 33vh;
 
   }
   .price-then + .price-then{
@@ -1385,7 +1393,7 @@ i:hover {
 
   .price{
 
-    top:-10vh;
+    top:-9vh;
     left: 36.3vh;
 
   }
@@ -2528,8 +2536,8 @@ i:hover {
 
   .price-then {
 
-    top: -16vh;
-    left: 132px;
+    top: -16.5vh;
+    left: 15vh;
     padding: 10px;
     font-size: 14px;
     margin-bottom: 5px;
@@ -2538,16 +2546,17 @@ i:hover {
 
   .price-then+.price-then {
 
-    top: -8vh;
-    left: 14.6vh;
+    top: -7.7vh;
+    left: 15vh;
     font-size: 15px;
 
   }
 
   .price {
 
-    top: -6vh;
-    left: 15.6vh;
+    width: 200px;
+    top: -5.7vh;
+    left: 16vh;
     font-size: 15px;
 
   }
@@ -2709,16 +2718,16 @@ i:hover {
 
   .price-then {
 
-    width: 170px;
+    width: 180px;
     line-height: 14px;
-    top: -17vh;
+    top: -17.4vh;
     left: 16vh;
 
   }
 
   .price-then+.price-then {
 
-    top: -9vh;
+    top: -8vh;
     left: 16vh;
 
   }
@@ -2726,7 +2735,7 @@ i:hover {
   .price {
 
     left: 17.2vh;
-    top: -7vh;
+    top: -6vh;
 
   }
 
