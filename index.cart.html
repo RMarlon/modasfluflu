@@ -39,56 +39,72 @@
         </nav> <!--nav-->
     </header> <!--header-->
 
-    <h1 class="cart-container-h1">Carrinho</h1> <!--cart-container-h1-->
+    <h1 class="cart-title-h1"> Seu Carrinho</h1> <!--cart-container-h1-->
 
-    <main class="cart-container">
+    <main class="main-header-cart-container">
 
-        <div class="table-container">
-            <!-- <input class="checkbox" type="checkbox">
-            <h4 class="itens">Itens</h4> -->
-            <div class="dvi-talble">
-                <table class="table">
 
-                    <thead class="thead-table">
-                        <th class="th-thead">Produto</th>
-                        <th class="th-thead">Preço</th>
-                        <th class="th-thead">Quantidade</th>
-                        <th class="th-thead">Total</th>
+        <div class="content-cart">
+
+            <section class="sction-content-cart">
+                <table class="table-container">
+                    <thead class="table-thead">
+                        <tr class="tr-thead-table">
+
+                            <th class="th-thead-table">Produto</th>
+                            <th class="th-thead-table">Preço</th>
+                            <th class="th-thead-table">Quantidade</th>
+                            <th class="th-thead-table">Total</th>
+                            <th class="th-thead-table">-</th>
+
+                        </tr>
                     </thead>
+                    <tbody class="table-tbody">
+                        <tr class="tr-table-tbody">
 
-                    <tbody class="tbody-table">
-                        <tr>
-                            <td class="td-produto">
-                                <img class="infat" src="Img/𝐹𝑜𝑙𝑙𝑜𝑤 𝑋𝑥𝑘𝑎𝑗𝑎𝑙𝑥𝑋 𝐹𝑜𝑟 𝑀𝑜𝑟𝑒 ♕ _ Cute outfits for kids, Toddler designer clothes, Kids outfits.jfif" alt="Conjunto Infantil para meninos">
+                            <td class="td-tr-tbody">
+                                <div class="product">
+                                    <img class="img-product" src="Img/conjuntoMikey.jfif"
+                                        alt="Conjunto Infantil para meninos">
+                                    <div class="img-info">
+                                        <div class="name-product">Conjunto Infantil Para Meninos</div>
+                                        <div class="description-product">Conjunto Do Mikey</div>
+                                    </div>
+                                </div>
                             </td>
+                            <td class="td-tr-tbody">R$ 97,50</td>
+                            <td class="td-tr-tbody">
+                                <div class="quantity">
+                                    <button class="more-or-less"><i class="fa-solid fa-minus"></i></button>
+                                    <span class="span-quantity">2</span>
+                                    <button class="more-or-less"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            </td>
+                            <td class="td-tr-tbody">R$ 195,00</td>
+                            <td class="td-tr-tbody"><button class="remove"><i class="fa-solid fa-x"></i></button></td>
 
-                            <td class="td-price">
-                                <span>R$:97,50</span>
-                            </td>
-
-                            <td class="td-quantity">
-                                <input class="product-qtd-input" type="number" value="1" min="0">
-                                <button class="remove-product-button" type="button">Remover</button>
-                            </td>
-
-                            <td class="td-total">
-                                <span>R$:97,50</span>
-                            </td>
                         </tr>
                     </tbody>
                 </table>
-            </div> <!--talble-->
-        </div> <!--table-container-->
-
-        <section class="final-pay-container">
-            <h2 class="resum-of-pay">Resumo do pedido</h2>
-            <form class="form-container">
-                <small class="sub-total">SubTotal</small>
-                <span class="total">R$:97,50</span>
-            </form>
-            <button class="end-pay">Finalizar a compra</button>
-        </section>
-    </main> <!--cart-container-->
+            </section>
+            <asaide class="aside-content-cart">
+                <div class="box">
+                    <header class="header-box">Resumo Da compra </header>
+                    <div class="info-subtotal">
+                        <div class="sub">Sub-Total<span class="sub-total-price">R$ 195,00</span></div>
+                        <div class="sub">Frete<span class="sub-total-price">Gratis</span></div>
+                        <div><button class="add-cumpom"> Adicionar Cupom De Desconto <i
+                                    class="fa-solid fa-arrow-right"></i></button></div>
+                    </div>
+                    <footer class="footetr-box">
+                        <span class="total">Total</span>
+                        <span>R$ 195,00</span>
+                    </footer>
+                </div>
+                <button class="final-pay">Finalizar Compra</button>
+            </asaide>
+        </div>
+    </main> <!--main-header-cart-container-->
 
     <section class="Pay-container">
         <h3 class="payment">Formas De Pagamento</h3>
@@ -108,7 +124,8 @@
             <img class="cardPay" src="Img/MercadoPago.webp" alt="MercadoPago">
         </div>
     </section>
-    
+
+
     <div class="social-media">
         <ul>
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i
@@ -123,14 +140,14 @@
             <li><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer"><i
                         class="fa-brands fa-linkedin"></i></a></li>
         </ul>
-    </div> <!--social-media-->
+    </div>
 
-    <footer class="footer-container"> <!--footer-container-->
-        <div class="div-footer-container"> <!--div-footer-container-->
-            <h2 class="h2-subtitle">Modas Fluflu</h2> <!--h2-subtitle-->
+    <footer class="footer-container">
+        <div class="div-footer-container">
+            <h2 class="h2-subtitle">Modas Fluflu</h2>
         </div>
-    </footer> <!--footer-container-->
-  
+    </footer>
+
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/522ac23ea8.js" crossorigin="anonymous"></script>
 </body>
